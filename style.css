@@ -65,6 +65,7 @@ body * {
   width: 112px;
   border-radius: 50%;
   outline: 3px solid var(--stroke-color);
+  background-color: var(--highlight-color);
 }
 
 #profile p {
