@@ -50,6 +50,8 @@ body * {
 
 #profile img {
   width: 112px;
+  border-radius: 50%;
+  outline: 3px solid var(--stroke-color);
 }
 
 #profile p {

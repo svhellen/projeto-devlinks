@@ -13,7 +13,10 @@ function toggleMode() {
     // document.querySelector("#profile img").src = `assets/avatar-light.png`
     // document.querySelector("#profile img").alt = `foto do Mayk tema light`
     avatar.setAttribute("src", "assets/avatar-light.png")
-    avatar.setAttribute("alt", "foto do Mayk tema light")
+    avatar.setAttribute(
+      "alt",
+      "avatar/desenho de menina com rosto sério, café na mão e fundo laranja."
+    )
   } else {
     // document.querySelector("#profile img").src = `assets/avatar.png`
     // document.querySelector(
@@ -22,7 +25,7 @@ function toggleMode() {
     avatar.setAttribute("src", "assets/avatar.png")
     avatar.setAttribute(
       "alt",
-      "Foto de mayk brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+      "avatar/desenho de menina sorrindo com cafe na mão e fundo azul."
     )
   }
 }
